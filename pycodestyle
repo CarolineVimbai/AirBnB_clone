@@ -1,9 +1,0 @@
-def find_average(numbers):
-  """
-  This function takes a list of numbers as input and returns the average.
-  """
-  if not numbers:
-  return None
-  total = sum(numbers)
-  average = total / len(numbers)
-  return average

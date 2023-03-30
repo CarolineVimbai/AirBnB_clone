@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """Defines the HBnB console."""
 import cmd
 import re
@@ -34,6 +33,7 @@ def parse(arg):
 
 class HBNBCommand(cmd.Cmd):
     """Defines the HolbertonBnB command interpreter.
+
     Attributes:
         prompt (str): The command prompt.
     """
